@@ -1,4 +1,4 @@
-import { observable } from 'mobx'
+import { observable, action } from 'mobx'
 
 export class BooleanStore {
     @observable booleanValue: boolean;
@@ -6,8 +6,8 @@ export class BooleanStore {
         this.booleanValue = true;
     }
 
-    changeValue = () => {
+    @action.bound
+    changeValue() {
         this.booleanValue = !this.booleanValue;
-        console.log("kikkeli");
     }
 }
