@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { observer } from 'mobx-react'
-import { BooleanStore } from './BooleanStore';
-import { IntegerStore } from './IntegerStore';
+import BooleanStore from './BooleanStore';
+import IntegerStore from './IntegerStore';
 import BooleanView from './BooleanView';
 import IntegerView from './IntegerView';
 

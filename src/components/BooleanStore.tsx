@@ -1,6 +1,6 @@
 import { observable, action } from 'mobx'
 
-export class BooleanStore {
+class BooleanStore {
     @observable booleanValue: boolean;
     constructor() {
         this.booleanValue = true;
@@ -11,3 +11,5 @@ export class BooleanStore {
         this.booleanValue = !this.booleanValue;
     }
 }
+
+export default BooleanStore;

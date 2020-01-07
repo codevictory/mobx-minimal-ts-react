@@ -1,8 +1,8 @@
 import * as React from "react"
 import * as ReactDOM from "react-dom"
 import MainView from "./components/MainView"
-import { BooleanStore } from "./components/BooleanStore"
-import { IntegerStore } from "./components/IntegerStore";
+import BooleanStore from "./components/BooleanStore"
+import IntegerStore from "./components/IntegerStore";
 
 const app = document.getElementById("root");
 

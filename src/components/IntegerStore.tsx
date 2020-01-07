@@ -1,6 +1,6 @@
 import { observable, action } from 'mobx';
 
-export class IntegerStore {
+class IntegerStore {
     @observable integerValue: number;
 
     constructor() {
@@ -12,3 +12,5 @@ export class IntegerStore {
         this.integerValue++;
     }
 }
+
+export default IntegerStore;

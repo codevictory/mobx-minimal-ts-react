@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { observer } from 'mobx-react';
-import { BooleanStore } from './BooleanStore'
+import BooleanStore from './BooleanStore'
 
 @observer
 class BooleanView extends React.Component<{ boolStore: BooleanStore }> {

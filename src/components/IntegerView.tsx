@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { observer } from 'mobx-react';
-import { IntegerStore } from './IntegerStore'
+import IntegerStore from './IntegerStore'
 
 @observer
 class IntegerView extends React.Component<{ integerStore: IntegerStore }> {
