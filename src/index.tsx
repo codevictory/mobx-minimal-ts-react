@@ -1,10 +1,12 @@
 import * as React from "react"
 import * as ReactDOM from "react-dom"
-import BooleanView from "./components/BooleanView"
+import MainView from "./components/MainView"
 import { BooleanStore } from "./components/BooleanStore"
+import { IntegerStore } from "./components/IntegerStore";
 
 const app = document.getElementById("root");
 
 const boolStore = new BooleanStore;
+const integerStore = new IntegerStore;
 
-ReactDOM.render(<BooleanView boolStore={boolStore} />, app)
+ReactDOM.render(<MainView boolStore={boolStore} integerStore={integerStore} />, app)
