@@ -16,6 +16,6 @@ Renders data stored in *Stores*.
 
 ## Initial run:
 
-1. Install Node.js
+1. Install Node.js and yarn
 2. ´yarn install`
 3. ´yarn start`
